@@ -9,7 +9,7 @@ sections:
   label: Testimonials
   create: all
   match: "**/*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: projects
   label: Projects
@@ -27,6 +27,10 @@ sections:
 - type: document
   path: data/theme.json
   label: Theme config
+- type: document
+  path: data/Info.json
+  label: Info
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
